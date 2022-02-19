@@ -1,0 +1,118 @@
+<!-- EXPERIMENT 1 | "RESPONSIVE" -->
+
+<!DOCTYPE html>
+
+<head>
+  <title>Experiment 1 | "Responsive"</title>
+  <!-- this would show as name of website, search result, top of website etc. -->
+  <meta charset="UTF-8">
+  <meta name="description" content="An HTML + CSS experiment">
+  <!-- this appears if for some reason the title doesn't load -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- need these to index in search engine -->
+  <!-- viewport tells the screen to not zoom way out, just adjust -->
+  <!-- i.e. "Don't show this desktop mode in a mobile setting"-->
+  <link rel="stylesheet" href="styles.css">
+  <!-- link to CSS file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<!-- Content we want to show on screen -->
+  <!-- HEADER -->
+  <!-- on this file, header is top title/banner -->
+  <header>
+    <img src="images/badge.svg" alt="EES" class="badge">
+    <div class="container">
+      <h1> Oooh! A responsive site? </h1>
+      <div class="banner-image"></div>
+    </div>
+    <!-- this will effect the max width -->
+  </header>
+  <!-- /end HEADER -->
+
+
+  <!-- WHO WE ARE -->
+  <section class="who-we-are">
+    <div class="container">
+      <h2>Who we are</h2>
+      <p>Founded in 1998, Ecological & Environmental Solutions is a women-owned and operated company with over 20 years of environmental consulting experience in Southern Ontario.</p>
+      <p>Our passion lies in restoration and design where we can find creative ways to enhance the diversity and functionality of our natural environment.</p>
+      <a href="#" class="button invert"> Howdy! </a>
+    </div>
+  </section>
+  <!-- /end WHO WE ARE -->
+
+
+  <!-- OUR SERVICES -->
+  <section class="our-services">
+    <div class="container">
+      <h2>Our services</h2>
+      <p>We are experienced in wildlife inventories and habitat assessments, wetland evaluations, invasive species management, and ecological restoration. EES prides itself on its reputation and professionalism and provides comprehensive services from the planning and initiation phases to the implementation and monitoring phases to ensure that each project is a success. AHOY! </p>
+      <a href="#" class="button">View all services</a>
+      <!-- this contains the width -->
+    </div>
+
+
+    <!-- CARDS -->
+    <div class="cards">
+      <a href="#" class="card">
+        <img src="images/card1.jpg" alt="our services">
+        <h3>Restoration &amp; Design</h3>
+        <p>EES has a strong understanding of our natural systems and provides award winning restoration and design.</p>
+      </a>
+      <!-- these 3 lines go: image, text, text -->
+      <a href="#" class="card">
+        <img src="images/card2.jpg" alt="our services">
+        <h3>Natural Heritage Assessment</h3>
+        <p>We coordinate with all relevant agencies to ensure all requirements are met and your project is a success.</p>
+      </a>
+      <a href="#" class="card">
+        <img src="images/card3.jpg" alt="our services">
+        <h3>EA Compliance</h3>
+        <p>Oh dear. I don't like how the words look in this area. I think I uncentered it? </p>
+      </a>
+      <a href="#" class="card">
+        <img src="images/card4.jpg" alt="our services">
+        <h3>Invasive Species Management</h3>
+        <p>Managing invasive species is an important way to protect our biodiversity.</p>
+      </a>
+    </div>
+    <!-- /end CARDS -->
+  </section>
+  <!-- /end OUR SERVICES -->
+
+
+  <!-- CONTACT US -->
+  <section class="contact-us">
+    <div class="container">
+      <h2>Greetings</h2>
+      <p>If you have any questions or would like to work with us, we'd love to hear from you! Fill out this quick contact form and we'll get back to you as soon as we can.</p>
+    </div>
+
+
+    <!-- CONTACT FORM -->
+    <form>
+      <label>To talk to you</label>
+      <input type="email" placeholder="naturelover123@gmail.com">
+      <label>What you want</label>
+      <textarea rows="5" placeholder="We should work together!"></textarea>
+      <button type="submit" class="button"> Au revoir! </button>
+    </form>
+    <!-- /end CONTACT FORM -->
+  </section>
+  <!-- /end CONTACT US -->
+
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="images/logo.svg" alt="EES">
+    <small>104-155 Main Street East, Suite 136 Grimsby ON</small>
+  </footer>
+  <!-- /end FOOTER -->
+
+
+</body>
